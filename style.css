@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .board {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background: #00b894;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #019875;
+  }
+  
+  .post {
+    background: #eee;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .post img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Imageboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="board">
+    <h1>Mini Imageboard</h1>
+    <form id="postForm">
+      <textarea id="postText" placeholder="What's on your mind?" required></textarea>
+      <input type="file" id="postImage" accept="image/*">
+      <button type="submit">Post</button>
+    </form>
+    <div id="posts"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
